@@ -31,3 +31,15 @@ class Solution(object):
 
 def divide(a, b):
     return a / b
+
+if __name__ == '__main__':
+    def function(x):
+        return x ** 2
+    generate_plot(function, -3, 3)
+
+    chooser = Chooser()
+    print(chooser.get_value())
+    print(chooser.select())
+
+    solution = Solution()
+    print(solution.twoSum([1, 2, 3], 5))
